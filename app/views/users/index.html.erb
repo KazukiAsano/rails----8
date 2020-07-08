@@ -1,0 +1,15 @@
+<%ggg = <<TEXT
+# &emsp;大
+## &ensp;'中'
+### ~~小~~
+
+
+```ruby
+
+puts 'hello world'
+
+```
+
+TEXT
+%>
+<%=markdown(ggg).html_safe%>
