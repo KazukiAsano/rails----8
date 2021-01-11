@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
 
-gem 'redcarpet', '~>2.3.0'
+gem 'redcarpet', '~>3.5.1'
 gem 'coderay'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
